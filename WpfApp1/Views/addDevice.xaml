@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="WpfApp1.Views.addDevice"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp1.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="250">
+    <Grid>
+        <Label x:Name="d_name" Content="Label" HorizontalAlignment="Left" Margin="24,17,0,0" VerticalAlignment="Top" />
+        <TextBox x:Name="d_name1" HorizontalAlignment="Left" Height="23" Margin="77,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <TextBox x:Name="d_Typ" HorizontalAlignment="Left" Height="23" Margin="77,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <TextBox x:Name="d_sn" HorizontalAlignment="Left" Height="23" Margin="77,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <TextBox x:Name="d_imei" HorizontalAlignment="Left" Height="23" Margin="77,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <TextBox x:Name="d_sonstige" HorizontalAlignment="Left" Height="23" Margin="77,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <Button x:Name="add" Content="add" HorizontalAlignment="Left" Margin="77,161,0,0" VerticalAlignment="Top" Width="49"/>
+        <Button x:Name="cancel" Content="cancel" HorizontalAlignment="Left" Margin="131,161,0,0" VerticalAlignment="Top" Width="51"/>
+    </Grid>
+</UserControl>
